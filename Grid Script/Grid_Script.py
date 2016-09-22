@@ -45,6 +45,7 @@ def openFile():
         text.insert(0.0, t)
     except:
         pyError.newError('Grid Script Error', 'There was an error opening your file', 'make sure its a .gs or .txt file',40,20)
+
     os.chdir('..')
 
 def run():
